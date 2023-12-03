@@ -27,18 +27,18 @@ int gcdFactorization(int a, int b) {
 int main() {
     int num1, num2;
 
-    // Input two numbers
+
     printf("Enter the first number: ");
     scanf("%d", &num1);
 
     printf("Enter the second number: ");
     scanf("%d", &num2);
 
-    // Calculate GCD using Euclidean Algorithm
+ 
     int gcdEuclid = gcdEuclidean(num1, num2);
     printf("GCD using Euclidean Algorithm: %d\n", gcdEuclid);
 
-    // Calculate GCD using Factorization Method
+ 
     int gcdFactor = gcdFactorization(num1, num2);
     printf("GCD using Factorization Method: %d\n", gcdFactor);
 
