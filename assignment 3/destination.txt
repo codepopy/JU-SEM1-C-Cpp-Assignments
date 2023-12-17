@@ -1,0 +1,3 @@
+Original content of the destination file.
+It may have some text already.This is the content of the source file.
+It contains some text for testing.
